@@ -93,7 +93,7 @@ function percent(value, percent) {
 console.log(`${percent(80, 20)}%`);
 
 
-////////////////////////////////percent Trick 3////////////////
+///////////////////////////percent Trick 3////////////////
 //  hmary pass asl value nai hen lekin percent ki num hen k 40% hoty hen 50 
 //  is ko solve krny k lea hn jo percent ki value hy us ko 100 sy multyplay kren gy phr divide by percent
 //  x = (50*100)/40 
@@ -102,7 +102,7 @@ function percent(value, percent) {
 }
 console.log(percent(50, 40));
 
-/////////////////////////////////////////percent Trick 4////////////////
+/////////////////////////////////////percent Trick 4////////////////
 // increasing & decreasing ab hm ko aik value ki kuch percent us me add krna hy , jesy k 80 me 20 % increase kro mtlb add kro 80 ka 20%
 //  sb sy pehly value ka percent nikaly gy 
 
