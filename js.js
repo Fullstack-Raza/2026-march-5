@@ -108,6 +108,15 @@ console.log(percent(50, 40));
 
 function percent(value, percent) {
   return ((value * percent) / 100)+value; // jo bhi jwab ay ga percent ka us ko hm asl value me add kren gy isi lea  +value kr dia hy 
-  value * (1+percent/100)
+  // value * (1+percent/100)
 }
 console.log(percent(200, 30));
+
+
+////////////////////////////problem one /////////////////////////////
+// 40% of 280 sb sy pehly hm 280 ko 100 sy taqsim kren gy phr 40 sy multy play kren gy , eahi formula hy k value ko percent  sy multyplay  kro  phr 100 sy  taqsim  rkro
+console.log((280/100)*40) // output 112
+console.log((280*40)/100) // output 112 ea standar hy
+
+
+
