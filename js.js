@@ -118,5 +118,30 @@ console.log(percent(200, 30));
 console.log((280/100)*40) // output 112
 console.log((280*40)/100) // output 112 ea standar hy
 
+//////////////////////////problem two////////////////////
+//  x num ka 35% hy 280 
+//  ea Trick 3 hy 
+// formula = x =(280*100)/35 jo percent ki value hy us 100 sy multiplay kren gy phr pred cent sy tqasim
+console.log((280*100)/35);
+
+/////////////////////////problem 3//////////////////
+// 45*x = 35% of 900
+//  sb sy pehly 900 ka 35 percent nikaly gy , Trick one 
+console.log(((900*35)/100)/45); // jwab hy x = 7
+//  jo jwab ay ga us ko taqsim kren 45 sy jwab mil jay ga 45 * x ka 
+
+//////////////////////////// problem 4 /////////////////////////////
+// x num  40% hy 250
+// x unm 60% hy n
+ // sb sy pehly x ko maaloom krna hy 
+  console.log((250*100)/40); // 625
+  console.log((625/100)*60);
+  
+
+  
+
+
+
+
 
 
