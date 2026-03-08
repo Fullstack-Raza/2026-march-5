@@ -160,6 +160,20 @@ function sum(a,b){
 
 console.log(sum(3,7));
 
+function check(x){
+   if(x > 10){
+      return "A";
+   }
+
+   if(x > 5){
+      return "B";
+   }
+
+   return "C";
+}
+
+console.log(check(7));
+
   
   
   
