@@ -145,6 +145,22 @@ console.log(((900*35)/100)/45); // jwab hy x = 7
   console.log((1520*30)/100); //456
   console.log((800*40)/100); //320
   console.log((776 * 100) / 5000); //15.52%
+
+
+  ///////////////////////////////////////
+function sum(a,b){
+   if(a>b){
+      return a;
+   }
+
+   return b;
+
+   return a+b;
+}
+
+console.log(sum(3,7));
+
+  
   
   
 
